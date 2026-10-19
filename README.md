@@ -14,24 +14,6 @@ A React-based Agriculture Management System designed to help manage crops, monit
 - **Responsive Interface:** Use the dashboard on different screen sizes.
 - **Local Data Storage:** Persist application data using browser local storage.
 
-## Screenshots
-
-### Dashboard
-![Dashboard Screenshot](src/assets/screenshort/Dashboard%201.jpg)
-![Dashboard Screenshot](src/assets/screenshort/Dashboard%202.jpg)
-
-### Crop Management
-![Crop Management Screenshot](src/assets/screenshort/Crops%20page%201.jpg)
-![Crop Management Screenshot](src/assets/screenshort/Crops%20page%202.jpg)
-
-### Buyer Management
-![Buyer Management Screenshot](src/assets/screenshort/HarvestOrders%20p1.jpg)
-![Buyer Management Screenshot](src/assets/screenshort/HarvestOrders%20p2.jpg)
-
-### Harvest & Orders
-![Harvest and Orders Screenshot](src/assets/screenshort/Buyers%20.jpg)
-![Harvest and Orders Screenshot](src/assets/screenshort/Buyers%202.jpg)
-
 
 ## Tech Stack
 
@@ -44,6 +26,28 @@ A React-based Agriculture Management System designed to help manage crops, monit
 - **Data Persistence:** Browser Local Storage
 - **Weather Data:** Weather API integration
 
+
+## Screenshots
+
+### Dashboard
+![Dashboard Screenshot](src/assets/screenshot/Dashboard%201.jpg)
+![Dashboard Screenshot](src/assets/screenshot/Dashboard%202.jpg)
+![Dashboard Screenshot](src/assets/screenshot/Dashboard%203.jpg)
+![Dashboard Screenshot](src/assets/screenshot/Dashboard%204.jpg)
+
+### Crop Management
+![Crop Management Screenshot](src/assets/screenshot/Crops%20page%201.jpg)
+![Crop Management Screenshot](src/assets/screenshot/Crops%20page%202.jpg)
+
+### Buyer Management
+![Buyer Management Screenshot](src/assets/screenshot/HarvestOrders%20p1.jpg)
+![Buyer Management Screenshot](src/assets/screenshot/HarvestOrders%20p2.jpg)
+
+### Harvest & Orders
+![Harvest and Orders Screenshot](src/assets/screenshot/Buyers%20.jpg)
+![Harvest and Orders Screenshot](src/assets/screenshot/Buyers%202.jpg)
+
+
 ##  Installation and Setup
 
 ### Prerequisites
@@ -52,20 +56,23 @@ A React-based Agriculture Management System designed to help manage crops, monit
 - npm
 - Git
 
+### 1. Clone the repository
 
-### 1. Navigate to the project folder
+git clone https://github.com/AizaFarooq-246/agriculture-management-system.git
+
+### 2. Navigate to the project folder
 
 ```bash
-cd agriculture_dashboard
+cd agriculture-management-system
 ```
 
-### 2. Install dependencies
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Start the development server
+### 4. Start the development server
 
 ```bash
 npm start
@@ -75,11 +82,13 @@ The application will open in browser, usually at:
 
 `http://localhost:3000`
 
+
 ## Project Structure
 
 ```text
 src/
 ├── assets/
+|   ├── screenshot/
 ├── components/
 │   ├── buyers/
 │   ├── common/
@@ -94,6 +103,7 @@ src/
 ├── styles/
 └── utils/
 ```
+
 
 ##  Developer Information
 
