@@ -33,19 +33,18 @@ A React-based Agriculture Management System designed to help manage crops, monit
 ![Dashboard Screenshot](src/assets/screenshot/Dashboard%201.jpg)
 ![Dashboard Screenshot](src/assets/screenshot/Dashboard%202.jpg)
 ![Dashboard Screenshot](src/assets/screenshot/Dashboard%203.jpg)
-![Dashboard Screenshot](src/assets/screenshot/Dashboard%204.jpg)
 
 ### Crop Management
 ![Crop Management Screenshot](src/assets/screenshot/Crops%20page%201.jpg)
 ![Crop Management Screenshot](src/assets/screenshot/Crops%20page%202.jpg)
 
-### Buyer Management
-![Buyer Management Screenshot](src/assets/screenshot/HarvestOrders%20p1.jpg)
-![Buyer Management Screenshot](src/assets/screenshot/HarvestOrders%20p2.jpg)
-
 ### Harvest & Orders
 ![Harvest and Orders Screenshot](src/assets/screenshot/Buyers%20.jpg)
 ![Harvest and Orders Screenshot](src/assets/screenshot/Buyers%202.jpg)
+
+### Buyer Management
+![Buyer Management Screenshot](src/assets/screenshot/HarvestOrders%20p1.jpg)
+![Buyer Management Screenshot](src/assets/screenshot/HarvestOrders%20p2.jpg)
 
 
 ##  Installation and Setup
