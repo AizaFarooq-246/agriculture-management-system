@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+#  Agriculture Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based Agriculture Management System designed to help manage crops, monitor crop health, view weather information, and maintain buyer and harvest order records through a centralized dashboard.
 
-## Available Scripts
+##  Features
 
-In the project directory, you can run:
+- **Dashboard:** View crop health, humidity, weather information, and farm statistics.
+- **Crop Management:** Add, view, and edit crop details, planting dates, cutting dates, health scores, and expected harvest quantities.
+- **Buyer Management:** Maintain buyer records, CNIC details, buyer photos, and crop sales.
+- **Harvest & Orders:** Track harvest summaries, stock progress, and incoming crop orders.
+- **Order Management:** Create, update, delete, and change the status of orders.
+- **Weather Information:** Display weather details and forecasts.
+- **Search and Filtering:** Find records more easily.
+- **Responsive Interface:** Use the dashboard on different screen sizes.
+- **Local Data Storage:** Persist application data using browser local storage.
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Add screenshots of your application in the `screenshots` folder and update the image paths below.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Dashboard
+![Dashboard Screenshot](src/assets/screenshort/Dashboard%201.jpg)
+![Dashboard Screenshot](src/assets/screenshort/Dashboard%202.jpg)
 
-### `npm test`
+### Crop Management
+![Crop Management Screenshot](src/assets/screenshort/Crops%20page%201.jpg)
+![Crop Management Screenshot](src/assets/screenshort/Crops%20page%202.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Buyer Management
+![Buyer Management Screenshot](src/assets/screenshort/HarvestOrders%20p1.jpg)
+![Buyer Management Screenshot](src/assets/screenshort/HarvestOrders%20p2.jpg)
 
-### `npm run build`
+### Harvest & Orders
+![Harvest and Orders Screenshot](src/assets/screenshort/Buyers%20.jpg)
+![Harvest and Orders Screenshot](src/assets/screenshort/Buyers%202.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend:** React.js, JavaScript
+- **Styling:** Bootstrap, CSS
+- **Icons:** FontAwesome
+- **Charts:** React chart components
+- **Routing:** React Router
+- **State Management:** React Context API and React Hooks
+- **Data Persistence:** Browser Local Storage
+- **Weather Data:** Weather API integration
 
-### `npm run eject`
+##  Installation and Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Node.js
+- npm
+- Git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1. Clone the repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/AizaFarooq-246/agriculture-management-system.git
+```
 
-## Learn More
+### 2. Navigate to the project folder
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd agriculture_dashboard
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 3. Install dependencies
 
-### Code Splitting
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 4. Start the development server
 
-### Analyzing the Bundle Size
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The application will open in your browser, usually at:
 
-### Making a Progressive Web App
+`http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Project Structure
 
-### Advanced Configuration
+```text
+src/
+├── assets/
+├── components/
+│   ├── buyers/
+│   ├── common/
+│   ├── crops/
+│   ├── dashboard/
+│   └── harvest/
+├── context/
+├── data/
+├── hooks/
+├── pages/
+├── services/
+├── styles/
+└── utils/
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+##  Developer Information
 
-### Deployment
+- **Name:** Aiza Farooq
+- **Project:** Agriculture Management System
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+##  License
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was developed for learning and internship practice.
