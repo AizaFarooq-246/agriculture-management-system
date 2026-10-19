@@ -16,8 +16,6 @@ A React-based Agriculture Management System designed to help manage crops, monit
 
 ## Screenshots
 
-Add screenshots of your application in the `screenshots` folder and update the image paths below.
-
 ### Dashboard
 ![Dashboard Screenshot](src/assets/screenshort/Dashboard%201.jpg)
 ![Dashboard Screenshot](src/assets/screenshort/Dashboard%202.jpg)
@@ -54,31 +52,26 @@ Add screenshots of your application in the `screenshots` folder and update the i
 - npm
 - Git
 
-### 1. Clone the repository
 
-```bash
-git clone https://github.com/AizaFarooq-246/agriculture-management-system.git
-```
-
-### 2. Navigate to the project folder
+### 1. Navigate to the project folder
 
 ```bash
 cd agriculture_dashboard
 ```
 
-### 3. Install dependencies
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Start the development server
+### 3. Start the development server
 
 ```bash
 npm start
 ```
 
-The application will open in your browser, usually at:
+The application will open in browser, usually at:
 
 `http://localhost:3000`
 
